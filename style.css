@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    
+    position: relative;
+    width: 30%;
+    height: 80vh;
+    background-color: antiquewhite;
+    text-align: center;
+    
+
+}
+.item{
+    margin: 10px 0;
+}
+
+.submit{
+    width: 10vw;
+    background-color:blue;
+    margin-top: 30px;
+}
+
+@media(max-width:800px){
+    .item1{
+        width: 10vw;
+    }
+}
